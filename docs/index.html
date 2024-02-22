@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="twitter:image" content="./assets/img/yo.jpg">
+    <meta property="og:image" content="./assets/img/yo.jpg">
+    <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg">
+    <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg">
+    <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg" media="(prefers-color-scheme: dark)">
+    <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg">
+    <link rel="icon" type="image/png" sizes="2822x1183" href="./assets/img/yo.jpg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/heladeria.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-lRqZiGxx8Dz3PXqCQqJDOVSdZswfKDcR5P/j9SGd0kfFoFP4jh2S5D4lRSNugN/l" crossorigin="anonymous">
+  <title>Yo Mommaz Burgers</title>
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+          <img src="./assets/img/yo.jpg">
+        </div>
+        <div class="contact-info">
+          <p>Llámanos: <a href="tel:6649060499">664-906-0499</a></p>
+        </div>
+        <div class="mobile-menu">
+          <div class="hamburger-menu" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#menu">Menú</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+      <!-- Resto del código... -->
+    
+      <script>
+        function toggleMenu() {
+          const navLinks = document.querySelector('.nav-links');
+          navLinks.classList.toggle('active');
+        }
+      </script>
+
+  <header class="hero" id="inicio">
+    <div class="overlay">
+      <h1>Bienvenido Yo Mommaz Burgers</h1>
+      <p>¡UNA HAMBURGUESA AMERICANA HECHA EN MÉXICO!</p>
+        <span class="glf-button" data-glf-cuid="bfc7f811-b24b-4d64-8e1f-ce6ca6dd6d80" data-glf-ruid="696a7899-380f-40ac-85dd-9e7220ee100d" >Ordenar en línea</span>
+        <script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+    </div>
+  </header>
+
+  <section class="about-us" id="sobre-nosotros">
+    <div class="container">
+      <h2>Sobre nosotros</h2>
+      <p>
+        ¡En "Yo Mommaz Burgers", te invitamos a disfrutar de hamburguesas auténticas y sabrosas en un ambiente relajado. Nuestro enfoque es simple: buena comida, buen ambiente y buenos momentos. Ven a probar algo delicioso y sin complicaciones.</p>
+      
+    </div>
+  </section>
+
+ <!-- <section class="menu" id="menu">
+    <div class="container">
+      <h2>Nuestro Menú</h2>
+      <div class="menu-item">
+        <img src="./assets/img/m3.png">
+      </div>
+    </div>
+  </section>-->
+
+  <section class="gallery" id="galeria">
+    <div class="container">
+      <h2>Galería</h2>
+      <div class="gallery-grid">
+        <img src="./assets/img/yo1.jpg" alt="Galería 1">
+        <img src="./assets/img/yo2.jpg" alt="Galería 2">
+        <img src="./assets/img/yo3.jpg" alt="Galería 3">
+        <img src="./assets/img/yo4.jpg" alt="Galería 4">
+     
+       
+      </div>
+    </div>
+  </section>
+
+  <section class="order-online" id="orden-en-linea">
+    <div class="container">
+      <h2>Ordena en línea</h2>
+      <p>¡Disfruta de nuestro menu desde la comodidad de tu hogar! Haz tu pedido ahora.</p>
+      <span class="glf-button" data-glf-cuid="bfc7f811-b24b-4d64-8e1f-ce6ca6dd6d80" data-glf-ruid="696a7899-380f-40ac-85dd-9e7220ee100d" >Ordenar en línea</span>
+<script src="https://www.fbgcdn.com/embedder/js/ewm2.js" defer async ></script>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Número de Teléfono: <a style="text-decoration:none; color:#000;" href="tel:6649060499">664-906-0499</a></p>
+      <p>Dirección: Av. Diego Rivera 9, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C.</p>
+    </div>
+  </section>
+
+  <section class="iconos">
+    <div class="container">
+      <ul class="social-icons">
+        <li><a href="https://www.facebook.com/people/Yo-Mommaz-Burgers-Zona-R%C3%ADo/61554425060171/?mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+        <li><a href="https://wa.me/+526649060499" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+       <!-- <li><a href="https://www.tiktok.com/@theblackroosterhouse" target="_blank"><img id="tik" src="./assets/img/tiktok.png" alt="TikTok"></a></li>-->
+      </ul>
+    </div>
+  </section>
+
+  
+
+
+  <section class="facebook-video">
+    <div class="container">
+      <h2>Visitanos</h2>
+      <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3364.0806422664105!2d-117.0132251!3d32.5239931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d948415fdd9a7f%3A0x9fffee8cace20c8b!2sAv.%20Diego%20Rivera%209%2C%20Zona%20Urbana%20Rio%20Tijuana%2C%2022010%20Tijuana%2C%20B.C.!5e0!3m2!1ses-419!2smx!4v1708632074768!5m2!1ses-419!2smx" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div id="brand"> </div>
+<script>
+    var y = new Date().getFullYear();
+    const branding = document.getElementById("brand");
+    
+    branding.innerHTML = `<p>Copyright © Made by <a href="https://menutech.xyz/" style="color:orange; text-decoration:none;" target="_blank">Menutech.xyz</a> ${y} </p>`;
+</script>
+<ul class="social-icons">
+  <li><a href="https://www.facebook.com/people/Yo-Mommaz-Burgers-Zona-R%C3%ADo/61554425060171/?mibextid=LQQJ4d" target="_blank"><img id="fb" src="./assets/img/fb.png" alt="Facebook"></a></li>
+  <li><a href="https://wa.me/+526649060499" target="_blank"><img id="wa" src="./assets/img/whatsappi.png" alt="WhatsApp"></a></li>
+ <!-- <li><a href="https://www.tiktok.com/@theblackroosterhouse" target="_blank"><img id="tik" src="./assets/img/tiktok.png" alt="TikTok"></a></li>-->
+</ul>
+    <button id="scroll-to-top">↑</button>
+
+  </footer>
+
+  <script>
+    document.getElementById('scroll-to-top').addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
